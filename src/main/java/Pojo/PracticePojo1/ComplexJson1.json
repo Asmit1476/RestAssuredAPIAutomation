@@ -1,0 +1,38 @@
+{
+  "library": {
+    "name": "City Library",
+    "location": "Downtown",
+    "books": [
+      {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "year": 1960,
+        "genres": ["Fiction", "Drama"]
+      },
+      {
+        "title": "1984",
+        "author": "George Orwell",
+        "year": 1949,
+        "genres": ["Dystopian", "Science Fiction"]
+      },
+      {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "year": 1925,
+        "genres": ["Fiction", "Classic"]
+      }
+    ],
+    "librarians": [
+      {
+        "name": "Alice Johnson",
+        "position": "Head Librarian",
+        "years_of_experience": 10
+      },
+      {
+        "name": "Bob Smith",
+        "position": "Assistant Librarian",
+        "years_of_experience": 5
+      }
+    ]
+  }
+}

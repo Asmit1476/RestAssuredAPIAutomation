@@ -1,0 +1,73 @@
+{
+    "company": "Tech Innovations Inc.",
+    "location": {
+        "city": "San Francisco",
+        "state": "CA",
+        "zipcode": "94107"
+    },
+    "departments": {
+        "engineering": {
+            "department_id": "ENG01",
+            "name": "Engineering",
+            "head": {
+                "name": "Alice Johnson",
+                "position": "Director",
+                "email": "alice@techinnovations.com"
+            },
+            "projects": [
+                {
+                    "project_id": "P001",
+                    "name": "AI Development",
+                    "is_active": true,
+                    "budget": 500000.75,
+                    "members": ["Alice Johnson", "Bob Smith", "Eve Davis"]
+                },
+                {
+                    "project_id": "P002",
+                    "name": "Cloud Platform",
+                    "is_active": false,
+                    "budget": 350000,
+                    "members": ["Alice Johnson", "Charlie Brown"]
+                }
+            ]
+        },
+        "marketing": {
+            "department_id": "MKT01",
+            "name": "Marketing",
+            "head": {
+                "name": "David Lee",
+                "position": "Head of Marketing",
+                "email": "david@techinnovations.com"
+            },
+            "campaigns": [
+                {
+                    "campaign_id": "C001",
+                    "name": "Product Launch",
+                    "active": true,
+                    "budget": 150000,
+                    "channels": ["Social Media", "Email", "Paid Ads"]
+                }
+            ]
+        }
+    },
+    "remote_policy": {
+        "allowed": true,
+        "days": ["Monday", "Wednesday", "Friday"]
+    },
+    "employees": [
+        {
+            "employee_id": "E001",
+            "name": "Alice Johnson",
+            "role": "Director of Engineering",
+            "salary": 120000.5,
+            "full_time": true
+        },
+        {
+            "employee_id": "E002",
+            "name": "David Lee",
+            "role": "Head of Marketing",
+            "salary": 110000,
+            "full_time": true
+        }
+    ]
+}

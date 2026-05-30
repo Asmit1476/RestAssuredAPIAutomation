@@ -1,0 +1,124 @@
+{
+  "university": {
+    "name": "Tech University",
+    "location": {
+      "city": "San Francisco",
+      "state": "California",
+      "zipcode": "94132"
+    },
+    "departments": [
+      {
+        "department_id": "CS",
+        "name": "Computer Science",
+        "head": {
+          "name": "Dr. Alice Brown",
+          "position": "Department Head",
+          "email": "alice.brown@techuniversity.edu"
+        },
+        "courses": [
+          {
+            "course_id": "CS101",
+            "name": "Introduction to Computer Science",
+            "credits": 3,
+            "professor": {
+              "name": "Dr. John Doe",
+              "email": "john.doe@techuniversity.edu",
+              "office_hours": ["Monday 10am-12pm", "Wednesday 2pm-4pm"]
+            },
+            "students": [
+              {
+                "student_id": "S1001",
+                "name": "Emily Zhang",
+                "year": "Sophomore",
+                "grades": {
+                  "midterm": 88,
+                  "final": 92
+                }
+              },
+              {
+                "student_id": "S1002",
+                "name": "Michael Lee",
+                "year": "Freshman",
+                "grades": {
+                  "midterm": 78,
+                  "final": 85
+                }
+              }
+            ]
+          },
+          {
+            "course_id": "CS102",
+            "name": "Data Structures",
+            "credits": 4,
+            "professor": {
+              "name": "Dr. Sarah Connor",
+              "email": "sarah.connor@techuniversity.edu",
+              "office_hours": ["Tuesday 11am-1pm", "Thursday 3pm-5pm"]
+            },
+            "students": [
+              {
+                "student_id": "S1003",
+                "name": "Lucas White",
+                "year": "Junior",
+                "grades": {
+                  "midterm": 91,
+                  "final": 89
+                }
+              },
+              {
+                "student_id": "S1004",
+                "name": "Sophia Brown",
+                "year": "Senior",
+                "grades": {
+                  "midterm": 85,
+                  "final": 90
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "department_id": "ENG",
+        "name": "Engineering",
+        "head": {
+          "name": "Dr. Robert Lang",
+          "position": "Department Head",
+          "email": "robert.lang@techuniversity.edu"
+        },
+        "courses": [
+          {
+            "course_id": "ENG201",
+            "name": "Introduction to Electrical Engineering",
+            "credits": 3,
+            "professor": {
+              "name": "Dr. Emma Stone",
+              "email": "emma.stone@techuniversity.edu",
+              "office_hours": ["Wednesday 9am-11am", "Friday 1pm-3pm"]
+            },
+            "students": [
+              {
+                "student_id": "S1005",
+                "name": "James Green",
+                "year": "Freshman",
+                "grades": {
+                  "midterm": 80,
+                  "final": 84
+                }
+              },
+              {
+                "student_id": "S1006",
+                "name": "Lily Johnson",
+                "year": "Sophomore",
+                "grades": {
+                  "midterm": 87,
+                  "final": 90
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

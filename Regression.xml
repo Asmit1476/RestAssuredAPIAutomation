@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoketest suite" verbose="1" parallel="methods" thread-count="2">
+
+    <test name="Regression Test Cases" >
+        <classes>
+            <class name="TestNg.CodecraftQA">
+                <methods>
+                    <include name="Codecraft_Homepage"></include>
+                </methods>
+            </class>
+<!--            <class name="TestNg.CodecraftDeveloper"></class>-->
+
+
+        </classes>
+
+    </test>
+
+<!--    <test name="Sanity Test Cases" >-->
+<!--        <classes>-->
+
+<!--            <class name="TestNg.TestNgParallel"></class>-->
+<!--            <class name="TestNg.TestParallel2"></class>-->
+
+<!--        </classes>-->
+
+<!--    </test>-->
+
+
+
+</suite>
+

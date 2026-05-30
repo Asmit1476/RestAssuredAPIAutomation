@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoketest suite" verbose="1" >
+
+    <test name="Sample Test Cases" >
+        <!--<parameter name="NativeApp" value="iPhone"/> -->
+<!--       <groups>-->
+<!--            <run>-->
+<!--                <exclude name="functional"/>-->
+<!--            </run>-->
+<!--        </groups>-->
+        <classes>
+            <class name="SeleniumTraining.TestNgBasics">
+             <methods>
+<!--                 <exclude name="facebookTestCase"></exclude>-->
+<!--                 <exclude name="facebookTestCase"></exclude>-->
+<!--                 <include name="facebookTestCase"></include>-->
+                 <exclude name=".*"></exclude>
+
+             </methods>
+            </class>
+<!--&lt;!&ndash;            <class name="TestNg.TestNgGroups"></class>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="TestNg.TestNgParallel"></class>&ndash;&gt;-->
+<!--            <class name="TestNgTrainingAnnotation"></class>-->
+
+
+        </classes>
+
+
+    </test>
+</suite>

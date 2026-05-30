@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoketest suite" verbose="1" parallel="methods" thread-count="2">
+
+    <test name="Checking groups functionality in TestNg" >
+        <groups>
+            <run>
+                <include name="smoke"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestNg.TestNgGroups"></class>
+        </classes>
+
+    </test>
+
+<!--    <test name="Sanity Test Cases" >-->
+<!--        <classes>-->
+
+<!--            <class name="TestNg.TestNgParallel"></class>-->
+<!--            <class name="TestNg.TestParallel2"></class>-->
+
+<!--        </classes>-->
+
+<!--    </test>-->
+
+
+
+</suite>
+
